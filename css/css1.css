@@ -1,0 +1,559 @@
+/*          
+                  Enquete
+
+Bon c'etait simple nan ?, Maintenant la suite :
+
+        {  010101110111010101110010011110000111100101101000011101010010000001101111011001000010000001100
+            1110110100001111001011011000111000101101000011101110111011101101000001000000110011001100100011
+            0011001101011011010000110100000100000011001110110010001110001011101100010000001101111011010000
+            010000001100110011100100110011101101000001000000100101101010111010011110101000000001010         }
+
+            Indices:
+                "Du binaire a veni vidi vici puis au français"
+                "Decalage : 3"
+
+*/
+
+/*Polices*/
+@font-face {
+    font-family: 'heading_proextrabold_italic';
+    src: url('headingpro-extrabolditalic-webfont.eot');
+    src: url('headingpro-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('headingpro-extrabolditalic-webfont.woff2') format('woff2'),
+         url('headingpro-extrabolditalic-webfont.woff') format('woff'),
+         url('headingpro-extrabolditalic-webfont.ttf') format('truetype'),
+         url('headingpro-extrabolditalic-webfont.svg#heading_proextrabold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'josefin_sansbold';
+    src: url('josefinsans-bold-webfont.woff2') format('woff2'),
+         url('josefinsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_problack';
+    src: url('sourcesanspro-black-webfont.woff2') format('woff2'),
+         url('sourcesanspro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'heading_probold';
+    src: url('headingpro-italic-webfont.eot');
+    src: url('headingpro-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('headingpro-italic-webfont.woff2') format('woff2'),
+         url('headingpro-italic-webfont.woff') format('woff'),
+         url('headingpro-italic-webfont.ttf') format('truetype'),
+         url('headingpro-italic-webfont.svg#heading_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'uranialight';
+    src: url('uranialig-webfont.eot');
+    src: url('uranialig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('uranialig-webfont.woff2') format('woff2'),
+         url('uranialig-webfont.woff') format('woff'),
+         url('uranialig-webfont.ttf') format('truetype'),
+         url('uranialig-webfont.svg#uranialight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cac_champagneregular';
+    src: url('cac_champagne-webfont.eot');
+    src: url('cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cac_champagne-webfont.woff2') format('woff2'),
+         url('cac_champagne-webfont.woff') format('woff'),
+         url('cac_champagne-webfont.ttf') format('truetype'),
+         url('cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*Fin*/
+
+
+body
+{
+    background-color: white;
+}
+
+#page_de_base
+{
+    margin: auto;
+}
+}
+
+h1
+{
+    font-size: large;
+}
+
+h2
+{
+    font-size: 30px;
+    color: black;
+    text-decoration: underline;
+}
+
+h3
+{
+    font-size: 25px;
+    font-family: 'heading_probold' , Arial , serif;
+}
+
+#tete
+{
+    background-color:#332626;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#nav
+{
+    
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 25px;
+    background: #332626 ;
+    width: 500px;
+    font-family:'uranialight';
+
+
+}
+
+#demi-1
+{
+    display :flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    float: right;
+
+
+}
+
+#menu
+{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#video
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    margin-bottom: 0px
+
+}
+
+#bouton
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#youtube
+{
+    background-color: #1B291F;
+    margin: auto;
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    padding-bottom: 100px;
+}
+#youtubebody:before {
+          content: "";
+          position: fixed;
+          top: -10px;
+          left: 0;
+          width: 100%;
+          height: 10px;
+
+          -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+              -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+                         box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+
+          z-index: 100;
+}
+
+#vide
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#coucou
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #191919;
+
+}
+.def
+{
+    font-family: 'heading_probold' , Arial , serif;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+.
+    
+}
+
+.titre_index
+{
+	font-family: 'heading_probold' , Arial , serif;
+    float: right;
+    font-size: 75px;
+    padding: 1px;
+}
+
+.navigation
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.le_logo
+{
+    display: flex;
+    align-items: flex-start;
+    color: black
+    
+}
+
+#scroll
+{
+    display: flex;
+    justify-content: center;
+}
+
+#nav a
+{
+    color: #807d7d;
+    text-decoration: none;
+}
+
+#nav a:visited
+{
+    color: #807d7d;
+}
+
+#nav a:hover
+{
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h3
+{
+    display: flex;
+    justify-content: center;
+    font-size: 70px ;
+    padding-top: 10px;
+    margin: auto;
+}
+
+#presentation
+{
+    background-color: #1B291F;
+    margin: auto;
+    margin-top: 0px;
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    color: white;
+    padding-bottom: 100px
+}
+#separationsyte
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vydeto
+{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: white;
+    font-family: 'heading_probold' , Arial , serif;
+    margin: auto;
+    padding-top: 10px
+    
+}
+.floathaut
+{
+    float: left;
+    vertical-align: middle;
+}
+.floatbas
+{
+    float: right;
+    vertical-align: middle;
+}
+
+.clear
+{
+    clear: right;
+}
+.texteuh
+{
+    font-family: 'Roboto',  sans-serif;
+    font-size: 20px;
+}
+
+.moua
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    color: white
+
+}
+
+.citation
+{
+    font-size: 35px;
+    font-style: bold;
+    vertical-align: middle;
+    font-family: 'heading_probold',  sans-serif;
+}
+.clear
+{
+    font-size: 25px
+}
+
+.citation:before {
+    content: open-quote;
+    display: inline;
+    /* height: 0; */
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 30px;
+    color: #ccc;
+    font-size: 3em;
+}
+
+.citation::after {
+    content: close-quote;
+    display: inline;
+    /* height: 0; */
+    line-height: 0;
+    left: 10px;
+    position: relative;
+    top: 35px;
+    color: #ccc;
+    font-size: 3em;
+}
+
+.desc
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bordd
+{
+    border: 2px black solid;
+    margin: 0px;
+    padding: 0px;
+}
+
+#les_real
+{
+    width:100% ;
+    height: 100%;
+    background-color: #191919;
+    padding-bottom: 100px;
+    margin: auto;
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+   
+
+}
+#les_real_split
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#les_real h3
+{
+    font-family: 'heading_probold', sans-serif;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+li
+{
+     list-style-type: none;
+}
+
+.lesreal1
+{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boutonreal
+{
+    padding: 2px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: solid 1px #191919 ;
+    background-color: #191919;
+    border-radius: 10px
+    
+}
+
+.petipeti
+{
+    font-size: 10px;
+}
+
+#les_real a
+{
+    color: #807d7d;
+    text-decoration: none;
+}
+
+#les_real a:visited
+{
+    color: #807d7d;
+}
+
+#les_real a:hover
+{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.espaceuh
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#enquete
+{
+    margin: auto;
+    background-color: #1B291F;
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+#enquete h3
+{
+    font-family: 'heading_probold', sans-serif;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.texteenquete
+{
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+
+
+}
+
+code
+{
+    
+    color: white;
+    font-size: 20px;
+    clear: both;
+    display: flex;
+    justify-content: center;
+
+}
+
+.splyteuh
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.myllieu
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.voiturecitrotro
+{
+    margin: auto;
+    color: white;
+    font-size: 16.5px;
+    font-family: 'Roboto', monospace;
+    border: solid 5px black;
+    background-color: black;
+    border-radius: 2px
+}
+
+.loupeuh
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pencher
+{
+    font-style: italic;
+    font-size: 20px;
+}
