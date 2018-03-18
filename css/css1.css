@@ -625,7 +625,7 @@ h4
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: #C4302B;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -633,7 +633,7 @@ h4
   padding: 3px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 1px;
+  margin: 10px;
 }
 
 .button span {
@@ -661,7 +661,150 @@ h4
   right: 0;
 }
 .button:active {
-  background-color: #3e8e41;
+  background-color: black;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+.button a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #0078D7;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 3px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button1:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: #0078D7;
+}
+
+.button1 a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.buttongit {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #24292E;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 3px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.buttongit span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttongit span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttongit:hover span {
+  padding-right: 25px;
+}
+
+.buttongit:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.buttongit:active {
+  background-color: #2F363D;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.buttongit a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#achille_du_site
+{
+    background-color: #332626;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#achille_du_site h5
+{
+    font-family: 'heading_probold', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#achille_du_site a
+{
+    color: #807d7d;
+    text-decoration: none;
+}
+
+#achille_du_site a:visited
+{
+    color: #807d7d;
+}
+
+#achille_du_site a:hover
+{
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
 }
