@@ -1,3 +1,5 @@
+
+
 /*          
                   Enquete
 
@@ -92,11 +94,13 @@ Bon c'etait simple nan ?, Maintenant la suite :
 body
 {
     background-color: white;
+    font-size: 12px;
 }
 
 #page_de_base
 {
     margin: auto;
+    text-align: center;
 }
 }
 
@@ -122,7 +126,9 @@ h3
 {
     background-color:#332626;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 
@@ -146,7 +152,7 @@ h3
 #demi-1
 {
     display :flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: nowrap;
     float: right;
 
@@ -157,7 +163,7 @@ h3
 {
     display: flex;
     float: right;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
 }
 
@@ -180,6 +186,22 @@ h3
 
 }
 
+.rec
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 426px;
+  height: 240px;
+  align-items: center;
+  justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   align-content: center;
+   margin-left: auto;
+   margin-right: auto;
+
+}
 #yoytube
 {
     background-color: #1B291F;
@@ -187,6 +209,9 @@ h3
     -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
     -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
     padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 #yoytubebody:before {
           content: "";
@@ -226,7 +251,8 @@ h3
     padding: 10px;
     display: flex;
     align-items: flex-end;
-    justify-content: flex-start;
+    justify-content: center;
+    
 
 .
     
@@ -243,7 +269,7 @@ h3
 .navigation
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px;
 
 }
@@ -251,7 +277,7 @@ h3
 .le_logo
 {
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
     color: black
     
 }
@@ -297,12 +323,16 @@ h3
     -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
     -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
     color: white;
-    padding-bottom: 100px
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #separationsyte
 {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .vydeto
@@ -343,7 +373,8 @@ h3
     flex-direction: column;
     justify-content: center;
     font-family: "Roboto", sans-serif;
-    color: white
+    color: white;
+    left: 50%
 
 }
 
@@ -356,10 +387,11 @@ h3
 }
 .clear
 {
-    font-size: 25px
+    font-size: 25px;
 }
 
 .citation:before {
+  font-size: 18px;
     content: open-quote;
     display: inline;
     /* height: 0; */
@@ -372,6 +404,7 @@ h3
 }
 
 .citation::after {
+  font-size: 18px;
     content: close-quote;
     display: inline;
     /* height: 0; */
@@ -387,10 +420,10 @@ h3
 {
     font-family: 'Josefin Sans', sans-serif;
 }
-.rec
+
+.h3presentation
 {
-  width: 426px;
-  height: 240px;
+  
 }
 
 .bordd
@@ -398,6 +431,10 @@ h3
     border: 2px black solid;
     margin: 0px;
     padding: 0px;
+    height: 250px ;
+    width: 250px ;
+    display: flex;
+    left: 50%;
 }
 
 #les_real
@@ -418,6 +455,7 @@ h3
 {
     display: flex;
     justify-content: space-around;
+    font-size: 25px
 
 }
 
@@ -458,6 +496,12 @@ li
 .petipeti
 {
     font-size: 10px;
+}
+
+#lesreal2
+{
+  display: none;
+
 }
 
 #les_real a
@@ -507,14 +551,20 @@ li
 
 .texteenquete
 {
-    font-size: 25px;
+    
     color: white;
     font-family: 'Roboto', sans-serif;
     margin: auto;
+    display: flex;
+    align-items: center;
+    
 
 
 }
-
+.pen
+{
+  text-align: center;
+}
 code
 {
     
@@ -525,11 +575,15 @@ code
     justify-content: center;
 
 }
+.tréslefontpetit
+{
+  font-size: 18px;
+}
 
 .splyteuh
 {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .myllieu
@@ -537,25 +591,30 @@ code
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .voiturecitrotro
 {
-    margin: auto;
+    margin-left:  auto;
+    margin-right: auto;
     color: white;
-    font-size: 16.5px;
+    font-size: 11.5px;
     font-family: 'Roboto', monospace;
-    border: solid 5px black;
-    background-color: black;
-    border-radius: 2px
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .loupeuh
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+    display: none;
+  }
+
+  .imamage
+  {
+    display: none;
+  }
 
 .pencher
 {
@@ -584,6 +643,7 @@ code
 .diviseapropos
 {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     text-align: center;
     margin: auto;
@@ -595,6 +655,7 @@ code
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-size: 12px;
 }
 
 .bouton_réseaux
@@ -603,6 +664,7 @@ code
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 12px;
 }
 
 h4
@@ -783,7 +845,7 @@ h4
     background-color: #332626;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
 }
@@ -872,7 +934,7 @@ h4
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 28px;
+  font-size: 12px;
   padding: 3px;
   transition: all 0.5s;
   cursor: pointer;
@@ -913,5 +975,20 @@ h4
 {
     color: white;
     text-decoration: none;
+}
+
+h4
+{
+  font-size: 35px;
+}
+
+.rec1
+{
+  display: none;
+}
+
+.rec2
+{
+  display: none;
 }
 
