@@ -15,14 +15,15 @@ Bon c'etait simple nan ?, Maintenant la suite :
 */
 
 /*Polices*/
+
 @font-face {
     font-family: 'heading_proextrabold_italic';
     src: url('headingpro-extrabolditalic-webfont.eot');
     src: url('headingpro-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('headingpro-extrabolditalic-webfont.woff2') format('woff2'),
-         url('headingpro-extrabolditalic-webfont.woff') format('woff'),
-         url('headingpro-extrabolditalic-webfont.ttf') format('truetype'),
-         url('headingpro-extrabolditalic-webfont.svg#heading_proextrabold_italic') format('svg');
+    url('headingpro-extrabolditalic-webfont.woff2') format('woff2'),
+    url('headingpro-extrabolditalic-webfont.woff') format('woff'),
+    url('headingpro-extrabolditalic-webfont.ttf') format('truetype'),
+    url('headingpro-extrabolditalic-webfont.svg#heading_proextrabold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -31,7 +32,7 @@ Bon c'etait simple nan ?, Maintenant la suite :
 @font-face {
     font-family: 'josefin_sansbold';
     src: url('josefinsans-bold-webfont.woff2') format('woff2'),
-         url('josefinsans-bold-webfont.woff') format('woff');
+    url('josefinsans-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -40,7 +41,7 @@ Bon c'etait simple nan ?, Maintenant la suite :
 @font-face {
     font-family: 'source_sans_problack';
     src: url('sourcesanspro-black-webfont.woff2') format('woff2'),
-         url('sourcesanspro-black-webfont.woff') format('woff');
+    url('sourcesanspro-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -50,10 +51,10 @@ Bon c'etait simple nan ?, Maintenant la suite :
     font-family: 'heading_probold';
     src: url('headingpro-italic-webfont.eot');
     src: url('headingpro-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('headingpro-italic-webfont.woff2') format('woff2'),
-         url('headingpro-italic-webfont.woff') format('woff'),
-         url('headingpro-italic-webfont.ttf') format('truetype'),
-         url('headingpro-italic-webfont.svg#heading_probold') format('svg');
+    url('headingpro-italic-webfont.woff2') format('woff2'),
+    url('headingpro-italic-webfont.woff') format('woff'),
+    url('headingpro-italic-webfont.ttf') format('truetype'),
+    url('headingpro-italic-webfont.svg#heading_probold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -63,10 +64,10 @@ Bon c'etait simple nan ?, Maintenant la suite :
     font-family: 'uranialight';
     src: url('uranialig-webfont.eot');
     src: url('uranialig-webfont.eot?#iefix') format('embedded-opentype'),
-         url('uranialig-webfont.woff2') format('woff2'),
-         url('uranialig-webfont.woff') format('woff'),
-         url('uranialig-webfont.ttf') format('truetype'),
-         url('uranialig-webfont.svg#uranialight') format('svg');
+    url('uranialig-webfont.woff2') format('woff2'),
+    url('uranialig-webfont.woff') format('woff'),
+    url('uranialig-webfont.ttf') format('truetype'),
+    url('uranialig-webfont.svg#uranialight') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -76,10 +77,10 @@ Bon c'etait simple nan ?, Maintenant la suite :
     font-family: 'cac_champagneregular';
     src: url('cac_champagne-webfont.eot');
     src: url('cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
-         url('cac_champagne-webfont.woff2') format('woff2'),
-         url('cac_champagne-webfont.woff') format('woff'),
-         url('cac_champagne-webfont.ttf') format('truetype'),
-         url('cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+    url('cac_champagne-webfont.woff2') format('woff2'),
+    url('cac_champagne-webfont.woff') format('woff'),
+    url('cac_champagne-webfont.ttf') format('truetype'),
+    url('cac_champagne-webfont.svg#cac_champagneregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -88,64 +89,56 @@ Bon c'etait simple nan ?, Maintenant la suite :
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 /*Fin*/
 
-
-body
-{
+body {
     background-color: white;
 }
 
-#page_de_base
-{
+#page_de_base {
     margin: auto;
 }
+
 }
 
-h1
-{
+h1 {
     font-size: large;
 }
 
-h2
-{
+h2 {
     font-size: 30px;
     color: black;
     text-decoration: underline;
 }
 
-h3
-{
+h3 {
     font-size: 25px;
-    font-family: 'heading_probold' , Arial , serif;
+    font-family: 'heading_probold', Arial, serif;
 }
 
-#tete
-{
-    background-color:#332626;
+#tete {
+    background-color: #332626;
     display: flex;
     justify-content: space-around;
 }
 
 
 
-#nav
-{
-    
+#nav {
+
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: space-between;
     list-style-type: none;
     font-size: 25px;
-    background: #332626 ;
+    background: #332626;
     width: 500px;
-    font-family:'uranialight';
+    font-family: 'uranialight';
 
 
 }
 
-#demi-1
-{
-    display :flex;
+#demi-1 {
+    display: flex;
     justify-content: flex-start;
     flex-wrap: nowrap;
     float: right;
@@ -153,25 +146,21 @@ h3
 
 }
 
-#menu
-{
+#menu {
     display: flex;
     float: right;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-#video
-{
+#video {
     display: flex;
     justify-content: space-between;
     padding-bottom: 100px;
     margin-bottom: 0px
-
 }
 
-#bouton
-{
+#bouton {
     position: relative;
     display: flex;
     justify-content: center;
@@ -180,37 +169,35 @@ h3
 
 }
 
-#yoytube
-{
+#yoytube {
     background-color: #1B291F;
     margin: auto;
-    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
-    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
     padding-bottom: 100px;
 }
+
 #yoytubebody:before {
-          content: "";
-          position: fixed;
-          top: -10px;
-          left: 0;
-          width: 100%;
-          height: 10px;
+    content: "";
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
 
-          -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
-              -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
-                         box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
 
-          z-index: 100;
+    z-index: 100;
 }
 
-#vide
-{
+#vide {
     display: flex;
     justify-content: space-between;
 }
 
-#coucou
-{
+#coucou {
     display: flex;
     justify-content: center;
     margin: auto;
@@ -220,142 +207,125 @@ h3
     background-color: #191919;
 
 }
-.def
-{
-    font-family: 'heading_probold' , Arial , serif;
+
+.def {
+    font-family: 'heading_probold', Arial, serif;
     padding: 10px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
 
-.
-    
+    .
 }
 
-.titre_index
-{
-	font-family: 'heading_probold' , Arial , serif;
+.titre_index {
+    font-family: 'heading_probold', Arial, serif;
     float: right;
     font-size: 75px;
     padding: 1px;
 }
 
-.navigation
-{
+.navigation {
     display: flex;
     justify-content: space-between;
     padding: 10px;
 
 }
 
-.le_logo
-{
+.le_logo {
     display: flex;
     align-items: flex-start;
     color: black
-    
 }
 
-#scroll
-{
+#scroll {
     display: flex;
     justify-content: center;
 }
 
-#nav a
-{
+#nav a {
     color: #807d7d;
     text-decoration: none;
 }
 
-#nav a:visited
-{
+#nav a:visited {
     color: #807d7d;
 }
 
-#nav a:hover
-{
+#nav a:hover {
     color: black;
     font-style: italic;
     text-decoration: underline;
 }
 
-h3
-{
+h3 {
     display: flex;
     justify-content: center;
-    font-size: 70px ;
+    font-size: 70px;
     padding-top: 10px;
     margin: auto;
 }
 
-#presentation
-{
+#presentation {
     background-color: #1B291F;
     margin: auto;
     margin-top: 0px;
-    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
-    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
     color: white;
     padding-bottom: 100px
 }
-#separationsyte
-{
+
+#separationsyte {
     display: flex;
     justify-content: space-between;
 }
 
-.vydeto
-{
+.vydeto {
     display: flex;
     justify-content: center;
     font-size: 70px;
     color: white;
-    font-family: 'heading_probold' , Arial , serif;
+    font-family: 'heading_probold', Arial, serif;
     margin: auto;
     padding-top: 10px
-    
 }
-.floathaut
-{
+
+.floathaut {
     float: left;
     vertical-align: middle;
 }
-.floatbas
-{
+
+.floatbas {
     float: right;
     vertical-align: middle;
 }
 
-.clear
-{
+.clear {
     clear: right;
 }
-.texteuh
-{
-    font-family: 'Roboto',  sans-serif;
+
+.texteuh {
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 
-.moua
-{
+.moua {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-family: "Roboto", sans-serif;
     color: white
-
 }
 
-.citation
-{
+.citation {
     font-size: 35px;
     font-style: bold;
     vertical-align: middle;
-    font-family: 'heading_probold',  sans-serif;
+    font-family: 'heading_probold', sans-serif;
 }
-.clear
-{
+
+.clear {
     font-size: 25px
 }
 
@@ -383,59 +353,53 @@ h3
     font-size: 3em;
 }
 
-.desc
-{
+.desc {
     font-family: 'Josefin Sans', sans-serif;
 }
-.rec
-{
-  width: 426px;
-  height: 240px;
+
+.rec {
+    width: 426px;
+    height: 240px;
 }
 
-.bordd
-{
+.bordd {
     border: 2px black solid;
     margin: 0px;
     padding: 0px;
 }
 
-#les_real
-{
-    width:100% ;
+#les_real {
+    width: 100%;
     height: 100%;
     background-color: #191919;
     padding-bottom: 100px;
     margin: auto;
-    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
-    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
     color: white;
     font-family: 'Roboto', sans-serif;
-   
+
 
 }
-#les_real_split
-{
+
+#les_real_split {
     display: flex;
     justify-content: space-around;
 
 }
 
-#les_real h3
-{
+#les_real h3 {
     font-family: 'heading_probold', sans-serif;
     font-size: 70px;
     display: flex;
     justify-content: center;
 }
 
-li
-{
-     list-style-type: none;
+li {
+    list-style-type: none;
 }
 
-.lesreal1
-{
+.lesreal1 {
     font-size: 25px;
     display: flex;
     flex-direction: column;
@@ -444,59 +408,50 @@ li
     font-family: 'Roboto', sans-serif;
 }
 
-.boutonreal
-{
+.boutonreal {
     padding: 2px;
     margin-top: 25px;
     margin-bottom: 25px;
-    border: solid 1px #191919 ;
+    border: solid 1px #191919;
     background-color: #191919;
     border-radius: 10px
-    
 }
 
-.petipeti
-{
+.petipeti {
     font-size: 10px;
 }
 
-#les_real a
-{
+#les_real a {
     color: #807d7d;
     text-decoration: none;
 }
 
-#les_real a:visited
-{
+#les_real a:visited {
     color: #807d7d;
 }
 
-#les_real a:hover
-{
+#les_real a:hover {
     font-style: italic;
     text-decoration: underline;
 }
 
-.espaceuh
-{
+.espaceuh {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-#enquete
-{
+#enquete {
     margin: auto;
     background-color: #1B291F;
-    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
-    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
     display: flex;
     flex-direction: column;
     padding-bottom: 100px;
 }
 
-#enquete h3
-{
+#enquete h3 {
     font-family: 'heading_probold', sans-serif;
     font-size: 70px;
     display: flex;
@@ -505,8 +460,7 @@ li
 }
 
 
-.texteenquete
-{
+.texteenquete {
     font-size: 25px;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -515,9 +469,8 @@ li
 
 }
 
-code
-{
-    
+code {
+
     color: white;
     font-size: 20px;
     clear: both;
@@ -526,21 +479,18 @@ code
 
 }
 
-.splyteuh
-{
+.splyteuh {
     display: flex;
     justify-content: space-between;
 }
 
-.myllieu
-{
+.myllieu {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.voiturecitrotro
-{
+.voiturecitrotro {
     margin: auto;
     color: white;
     font-size: 16.5px;
@@ -550,236 +500,69 @@ code
     border-radius: 2px
 }
 
-.loupeuh
-{
+.loupeuh {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.pencher
-{
+.pencher {
     font-style: italic;
     font-size: 20px;
 }
 
-#apropos
-{
+#apropos {
     margin: auto;
     color: white;
     background-color: #191919;
-    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
-    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
     padding-bottom: 100px;
 }
 
-#apropos h3
-{
+#apropos h3 {
     font-family: 'heading_probold', sans-serif;
     font-size: 70px;
     display: flex;
     justify-content: center;
 }
 
-.diviseapropos
-{
+.diviseapropos {
     display: flex;
     justify-content: space-between;
     text-align: center;
     margin: auto;
 }
 
-.bouton_réseaux1
-{
+.bouton_réseaux1 {
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.bouton_réseaux
-{
+.bouton_réseaux {
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-h4
-{
+h4 {
     font-family: 'heading_probold', sans-serif;
     font-size: 35px;
     text-align: center;
 }
 
-.texte_apropos
-{
+.texte_apropos {
     font-size: 25px;
     color: white;
     font-family: 'Roboto', sans-serif;
     margin: auto;
 }
 
-.github-button
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 
-.button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #C4302B;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 3px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 10px;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-.button:active {
-  background-color: black;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-.button a
-{
-    color: white;
-    text-decoration: none;
-}
-
-.button1 {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #0078D7;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 3px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 10px;
-}
-
-.button1 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button1 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button1:hover span {
-  padding-right: 25px;
-}
-
-.button1:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-.button1:active {
-  background-color: white;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-  color: #0078D7;
-}
-
-.button1 a
-{
-    color: white;
-    text-decoration: none;
-}
-
-.buttongit {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #24292E;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 3px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 10px;
-}
-
-.buttongit span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.buttongit span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.buttongit:hover span {
-  padding-right: 25px;
-}
-
-.buttongit:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-.buttongit:active {
-  background-color: #2F363D;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-.buttongit a
-{
-    color: white;
-    text-decoration: none;
-}
-
-#achille_du_site
-{
+#achille_du_site {
     background-color: #332626;
     margin: auto;
     display: flex;
@@ -788,130 +571,117 @@ h4
     font-family: 'Roboto', sans-serif;
 }
 
-#achille_du_site h5
-{
+#achille_du_site h5 {
     font-family: 'heading_probold', sans-serif;
     font-size: 20px;
     font-weight: bold;
     text-decoration: underline;
 }
 
-#achille_du_site a
-{
+#achille_du_site a {
     color: #807d7d;
     text-decoration: none;
 }
 
-#achille_du_site a:visited
-{
+#achille_du_site a:visited {
     color: #807d7d;
 }
 
-#achille_du_site a:hover
-{
+#achille_du_site a:hover {
     color: black;
     font-style: italic;
     text-decoration: underline;
 }
 
-.icons {
-    margin: auto;
-}
-
-.icons a {
-    display: inline-block;
-    vertical-align: middle;
-    -o-transition: all .3s;
-    -moz-transition: all .3s;
-    -webkit-transition: all .3s;
-    -ms-transition: all .3s;
-}
-
-.icons a.twitter { background: url(../img/social-icons/twitter.png) left top no-repeat; }
-.icons a.dribbble { background: url(../img/social-icons/dribbble.png) left top no-repeat; }
-.icons a.rss { background: url(../img/social-icons/rss.png) left top no-repeat; }
-.icons a.pinterest { background: url(../img/social-icons/pinterest.png) left top no-repeat; }
-.icons a.digg { background: url(../img/social-icons/digg.png) left top no-repeat; }
-.icons a.flickr { background: url(../img/social-icons/flickr.png) left top no-repeat; }
-.icons a.forrst { background: url(../img/social-icons/forrst.png) left top no-repeat; }
-.icons a.vimeo { background: url(../img/social-icons/vimeo.png) left top no-repeat; }
-.icons a.reddit { background: url(../img/social-icons/reddit.png) left top no-repeat; }
-.icons a.linkedin { background: url(../img/social-icons/linkedin.png) left top no-repeat; }
-.icons a.facebook { background: url(../img/social-icons/facebook.png) left top no-repeat; }
-.icons a.paypal { background: url(../img/social-icons/paypal.png) left top no-repeat; }
-.icons a.stumbleupon { background: url(../img/social-icons/stumbleupon.png) left top no-repeat; }
-.icons a.email { background: url(../img/social-icons/email.png) left top no-repeat; }
-.icons a.deviantart { background: url(../img/social-icons/deviantart.png) left top no-repeat; }
-.icons a.netvibes { background: url(../img/social-icons/netvibes.png) left top no-repeat; }
-.icons a.yahoo { background: url(../img/social-icons/yahoo.png) left top no-repeat; }
-.icons a.github { background: url(../img/social-icons/github.png) left top no-repeat; }
-.icons a.addthis { background: url(../img/social-icons/addthis.png) left top no-repeat; }
-.icons a.behance { background: url(../img/social-icons/behance.png) left top no-repeat; }
-.icons a.blogger { background: url(../img/social-icons/blogger.png) left top no-repeat; }
-.icons a.slashdot { background: url(../img/social-icons/slashdot.png) left top no-repeat; }
-.icons a.technorati { background: url(../img/social-icons/technorati.png) left top no-repeat; }
-.icons a.googleplus { background: url(../img/social-icons/googleplus.png) left top no-repeat; }
-.icons a.apple { background: url(../img/social-icons/apple.png) left top no-repeat; }
-.icons a.myspace { background: url(../img/social-icons/myspace.png) left top no-repeat; }
-.icons a.sharethis { background: url(../img/social-icons/sharethis.png) left top no-repeat; }
-.icons a.yelp { background: url(../img/social-icons/yelp.png) left top no-repeat; }
-.icons a.delicious { background: url(../img/social-icons/delicious.png) left top no-repeat; }
-.icons a.lastfm { background: url(../img/social-icons/lastfm.png) left top no-repeat; }
-.icons a.youtube { background: url(../img/social-icons/youtube.png) left top no-repeat; }
-.icons a.skype { background: url(../img/social-icons/skype.png) left top no-repeat; }
-.icons a.tumblr { background: url(../img/social-icons/tumblr.png) left top no-repeat; }
-.icons a.aim { background: url(../img/social-icons/aim.png) left top no-repeat; }
-.icons a.google { background: url(../img/social-icons/google.png) left top no-repeat; }
-
-.icons a:hover { background-position: left -34px; }
-
-.buttonfooter {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #332626;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 3px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 10px;
-}
-
-.buttonfooter span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.buttonfooter span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.buttonfooter:hover span {
-  padding-right: 25px;
-}
-
-.buttonfooter:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-.buttonfooter:active {
-  background-color: #332626;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-.buttonfooter a
-{
+.li1 {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    background-color: darkred;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
     color: white;
+    font-size: 15px;
     text-decoration: none;
+
 }
 
+.bouton_réseaux a {
+   font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    text-decoration: none
+}
+.bouton_réseaux p
+{
+    font-family:'heading_proextrabold_italic','Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.li1 :hover
+{
+    color: black;
+    text-decoration: underline
+}
+
+.li2 {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    background-color: skyblue;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.li2 :hover
+{
+    color: black;
+    text-decoration: underline
+}
+
+.li3 {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    background-color: dimgrey;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.li3 :hover
+{
+    color: black;
+    text-decoration: underline
+}
+
+.bouton_réseaux1 a {
+   font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    text-decoration: none
+}
+.bouton_réseaux1 p
+{
+    font-family:'heading_proextrabold_italic','Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.icons {
+    display: flex;
+    justify-content: space-between
+}
