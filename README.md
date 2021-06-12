@@ -1,5 +1,4 @@
 # destroycom.com
 
 Bonjour, 
-Bah c'est mon code hein;
-pour l'enquete le css est dans le dossier CSS
+Ce code ainsi que ce repo git est maintenant archivé car il n'est plus d'actualité.
